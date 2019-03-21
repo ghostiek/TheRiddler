@@ -1,4 +1,4 @@
-#2
+#2 Monte Carlo Simulation Solution
 
 total = 0
 n = 10000
@@ -19,4 +19,4 @@ for i in range(0,n):
     if i %1000 == 0:
         print(f"{100*i/n}%")
     
-print(total*5/n)
+print(total*5/n) #About 4000$
